@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { COLORS } from "../../Common/color";
+import { COLORS } from "../../Common/Color";
 
 
 const TextBlock = ({ children, icon, animate = false, duration = 4, delay = 0 }) => (

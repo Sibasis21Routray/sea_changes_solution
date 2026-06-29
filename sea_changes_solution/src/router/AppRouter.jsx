@@ -47,7 +47,7 @@ export default function AppRouter() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/services" element={<Placeholder title="Our Services" />} /> */}
+          <Route path="/services" element={<Placeholder title="Our Services" />} />
           <Route path="/services/compliance" element={<ComplianceLearning />} />
           <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
           <Route path="/services/tech-services" element={<TechServices />} />
