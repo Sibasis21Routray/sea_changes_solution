@@ -16,8 +16,8 @@ export default function WhyUs() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="relative flex items-center justify-center"
           >
-            <div className="w-[320px] h-[320px] sm:w-[420px] sm:h-[420px] overflow-hidden rounded-3xl shadow-xl relative z-10 bg-[#E8F0F5]"
-              style={{ border: "1px solid rgba(143,181,204,0.25)" }}
+            <div className="w-[320px] h-[320px] sm:w-[420px] sm:h-[420px] overflow-hidden rounded-3xl relative z-10 "
+              // style={{ border: "1px solid rgba(143,181,204,0.25)" }}
             >
               <img
                 src="/homepage/bpo-image.png"
